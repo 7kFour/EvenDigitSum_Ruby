@@ -13,7 +13,7 @@ def get_even_digit_sum(number)
 
   end
 
-  sum += number if number < 10 && number.even?
+  sum += number if number.even?
 
   sum
 
