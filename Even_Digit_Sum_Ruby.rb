@@ -11,8 +11,9 @@ def get_even_digit_sum(number)
 
     number /= 10
 
-    sum += number if number < 10 && number.even?
   end
+
+  sum += number if number < 10 && number.even?
 
   sum
 
@@ -21,3 +22,6 @@ end
 p get_even_digit_sum(252)
 p get_even_digit_sum(1_234_567_890)
 p get_even_digit_sum(-22)
+p get_even_digit_sum(8)
+p get_even_digit_sum(6)
+
